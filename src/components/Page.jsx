@@ -11,7 +11,7 @@ const Page = ({isDark,setIsDark}) => {
         
     {/* js0427 props */}
         <Header isDark={isDark} setIsDark={setIsDark}/>
-        <Content isDark={isDark} setIsDark={setIsDark}/>
+        <Content isDark={isDark} setIsDark={setIsDark}/>  
         <Footer isDark={isDark} setIsDark={setIsDark}/>
     </div>
   )
