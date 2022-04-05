@@ -2,10 +2,10 @@ import React, { useContext } from 'react'
 import { ThemeContext } from '../context/ThemeContext';
 
 
-//  js0427 👉App.js 
+//  js0427. props 👉App.js
 // const Footer = ({isDark, setIsDark}) => {
 
-
+// js0454. useContext 👉app.js
 const Footer = () => {
     const {isDark, setIsDark} = useContext(ThemeContext)
 
