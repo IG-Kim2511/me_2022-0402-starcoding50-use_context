@@ -1,16 +1,15 @@
+<<<<<<< HEAD
 import { useState } from "react";
 import Page from "./components/Page";
 import { ThemeContext } from "./context/ThemeContext";
 
+=======
+>>>>>>> parent of 539d5d1 (inf-darkmode)
 
 function App() {
-
-  // 🍀🦄 js0427. darkmode 준비
-  // 👉Page, Header, Content, Footer
-  const [isDark, setIsDark] = useState(false)
-  
   return (
     <div>
+<<<<<<< HEAD
     <h1>별코딩 useContext</h1>
 
 
@@ -27,6 +26,10 @@ function App() {
 
 
 
+=======
+    
+      sdfsdf
+>>>>>>> parent of 539d5d1 (inf-darkmode)
     </div>
   );
 }
