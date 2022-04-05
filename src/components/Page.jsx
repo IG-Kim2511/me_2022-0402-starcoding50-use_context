@@ -26,7 +26,7 @@ const Page = ({isDark,setIsDark}) => {
     {/* js0454 */}
     <Header/>
     <Content/>
-    <footer/>
+    <Footer/>
        
     </div>
   )
