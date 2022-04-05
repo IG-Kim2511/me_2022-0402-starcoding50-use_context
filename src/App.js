@@ -13,7 +13,7 @@ function App() {
 
   return (
     <div>
-    <h1>별코딩 useContext</h1>
+    <h1>별코딩 useContext (dark mode)</h1>
 
 
     {/* js0427  props
