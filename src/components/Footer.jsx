@@ -1,8 +1,13 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext';
 
 
 //  js0427 👉App.js 
-const Footer = ({isDark, setIsDark}) => {
+// const Footer = ({isDark, setIsDark}) => {
+
+
+const Footer = () => {
+    const {isDark, setIsDark} = useContext(ThemeContext)
 
     /* 🦄 js0446
         클릭하면  setIsDark(!isDark);실행

@@ -1,8 +1,16 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { ThemeContext } from '../context/ThemeContext'
 
-const Header = ({isDark}) => {
+//  js0427. props 👉App.js
+// const Header = ({isDark}) => {\
+
+// js0454. useContext 👉app.js
+const Header = () => {
+
+    // js0454
+    const {isDark} = useContext(ThemeContext)
+    
   return (
-
     /* js0427 👉App.js
     
         🦄css에 ternary operator 넣기
