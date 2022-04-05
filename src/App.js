@@ -21,8 +21,8 @@ function App() {
     */}
 
 
-    {/* 🍀 js0454 useContext 👉ThemeContext, Page, Header, Content, Footer*/}
-    {/* 🍀 js0524 useContext. "text"보내기 */}
+    {/* 🍀 js0454 useContext - ThemeContext 👉ThemeContext, Page, Header, Content, Footer*/}
+    {/* 🍀 js0524 useContext - UserContext 여러번 겹쳐서 사용하기. "text"보내기 */}
     <UserContext.Provider value={'사용자'}>
       <ThemeContext.Provider value={{isDark, setIsDark}}>
         <Page/>
