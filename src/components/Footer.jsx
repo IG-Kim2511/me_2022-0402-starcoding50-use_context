@@ -7,11 +7,12 @@ import { ThemeContext } from '../context/ThemeContext';
 
 // js0454. useContext 👉app.js
 const Footer = () => {
+
+  // 👉2023-0911 👉ThemeContext.js
     const {isDark, setIsDark} = useContext(ThemeContext)
 
-    /* 🦄 js0446
-        클릭하면  setIsDark(!isDark);실행
-        
+    /* 🦄 js0446, style{{~}}에 삼항연산자 사용 가능함
+        클릭하면  setIsDark(!isDark);실행        
         클릭할때마다 isDark <--> !isDark 바뀜
     */
     const toggleTheme =()=>{
